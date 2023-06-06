@@ -27,7 +27,6 @@ def countingSort(arr):
 
     return output
 
-# Ejemplo de uso
 arr = [5, 2, 8, 12, 1, 6]
 print("Array original:", arr)
 arr_ordenado = countingSort(arr)
