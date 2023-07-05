@@ -5,11 +5,11 @@
 def Ordenacion_Seleccion(arr):
     n = len(arr)
     for i in range(n):
-        min_idx = i
+        min= i
         for j in range(i+1, n):
-            if arr[j] < arr[min_idx]:
-                min_idx = j
-        arr[i], arr[min_idx] = arr[min_idx], arr[i]
+            if arr[j] < arr[min]:
+                min = j
+        arr[i], arr[min] = arr[min], arr[i]
     return arr
 lista = [9, 2, 5, 1, 7]
 resultado = Ordenacion_Seleccion(lista)
