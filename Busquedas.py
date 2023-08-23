@@ -46,7 +46,6 @@ tiempo_lineal = medir_tiempo_ms(busqueda_lineal, lista_lineal, elemento_a_buscar
 tiempo_binaria = medir_tiempo_ms(busqueda_binaria, lista_binaria, elemento_a_buscar)
 tiempo_burbuja = medir_tiempo_ms(ordenacion_burbuja, lista_burbuja)
 
-# Imprimir los resultados en milisegundos
 print(f"Tiempo de búsqueda lineal: {tiempo_lineal} milisegundos")
 print(f"Tiempo de búsqueda binaria: {tiempo_binaria} milisegundos")
 print(f"Tiempo de ordenación burbuja: {tiempo_burbuja} milisegundos")
